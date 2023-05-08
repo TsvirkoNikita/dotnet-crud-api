@@ -1,0 +1,1 @@
+psql -U postgres -c "CREATE TABLE "Users"("Id" SERIAL PRIMARY KEY, "Name" VARCHAR(50) NOT NULL, "Email" VARCHAR(255) NOT NULL);"
